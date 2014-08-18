@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "'SupForSoup": {
+            "applicationId": "XPGFZVIIvxcAatTDondBUkqegu68DWitsqSfmmBP", 
+            "masterKey": "tuUttYaFkRFhIOIqJ23Ryq54p5la0DYDswdmaFX9"
+        }, 
+        "_default": {
+            "link": "'SupForSoup"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.19"
+    }
+}
