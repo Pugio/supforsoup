@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Sup For Soup</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> 
+
+
+	  <link rel="stylesheet" href="css/supForSoupTheme.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" /> 
+<!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" /> -->
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+<script type='application/javascript' src='/js/fastclick.js'></script>
+<script src="js/clickfix.js"></script>
+
+
+		<link rel="stylesheet" href="css/customStyles.css"/>
+	
+
+
+</head> 
+<body> 
+
+
+<!-- Start of first page -->
+<div data-role="page" id="home"  >
+
+	<!--  <div data-role="header">
+		<h1>Foo</h1>
+	</div> -->
+  <div data-role="panel" id="homePanel"> 
+    <h2>Avisha NessAiver</h2>
+     <form method="post" action="blah.asp">
+      <label for="location">Location</label>
+      <input type="text" name="location" id="location" placeholder="Silver Spring, MD" data-clear-btn="true">
+      <label for="Phone">Phone</label>
+      <input type="text" name="Phone" id="Phone" placeholder="XXX-XXX-XXXX" data-clear-btn="true">
+      <label for="phonePublic">Display Phone Number</label>
+      <input type="checkbox" data-inline="true" name="phonePublic" id="phonePublic" data-clear-btn="true">
+      <label for="userStatus">Status</label>
+      <input type="text" name="userStatus" id="userStatus" placeholder="Pizza anyone?" data-clear-btn="true">
+ 
+
+
+    </form>
+    <a href="#pageone" id="userRdyButton" data-theme="d" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-b ui-icon-check ui-btn-icon-left">Ready!</a>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-b ui-icon-delete ui-btn-icon-left">Close</a>
+  </div> 
+  <div data-role="panel" id="matisPanel"> 
+    <h2>Matis Kleidman</h2>
+    <p>Phone number: 773-528-7483</p>
+    <p>Address: 121 N. LaSalle Street
+    <br>Chicago, Illinois 60602 USA</p>
+    <p>Email: thebestadelepitt@gmail.com</p>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-b ui-icon-delete ui-btn-icon-left">Contact</a>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-b ui-icon-delete ui-btn-icon-left">Close</a>
+  </div> 
+  <div data-role="panel" id="denaPanel"> 
+    <h2>Dena Bayla Ariella Caplin</h2>
+    <p>Phone number: 212-330-5200</p>
+    <p>Address: 350 Fifth Avenue
+    <br>New York, NY 10118-3299 USA</p>
+    <p>Email: theoneandonlybilly@gmail.com</p>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-b ui-icon-comment ui-btn-icon-left">Contact</a>
+    <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-b ui-icon-delete ui-btn-icon-left">Close</a>
+  </div> 
+  <div data-role="popup" id="myPopup" class="ui-content">
+      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+      <h2>User Settings</h2>
+      <p>Ready later today?</p>
+      <h3>Location</h3>
+      <h3>Privacy</3>
+    </div>
+
+	<div data-role="content" >
+		<ul id="user-list" data-role="listview" data-inset="true" data-theme="a">
+		 <li corners="false" data-icon="false"><a href="#"> Matisk</a></li>
+		 <li data-icon="false"><a href="#"> The Dude</a></li>
+		 <li data-icon="false"><a href="#"> Ol Granpa</a></li>
+		 <li data-icon="false"><a href="#"> The Super User Bunny</a></li>
+		</ul>
+
+
+	</div><!-- /content -->
+
+
+
+	<div data-role="footer">
+    <div id="loading-bar-wrapper">
+		<div id="loading-bar">
+      <a data-icon="gear" data-role="button"href="#"></a>
+      <span id="next-soup-counter">6/11</span>
+    </div><!--/loading-bar-->
+  </div>
+    <div id="soup-counter">
+      <img src="img/sfsbowl.png" alt="soup bowl"></img>
+      <div id="soup-counter-badge">37</div>
+    </div><!-- / soup-counter -->
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of second page -->
+<div data-role="page" id="bar">
+
+	<div data-role="header">
+		<h1>Bar</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>		
+		<p><a href="#foo">Back to foo</a></p>	
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
