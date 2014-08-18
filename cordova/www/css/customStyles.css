@@ -1,0 +1,111 @@
+.ui-content {
+	padding:0px;
+}
+
+.centeredText{
+	text-align: center;
+}
+
+.ui-listview li.ui-first-child {
+	-webkit-border-top-right-radius: 0px; 
+/* border-top-right-radius: inherit; */
+-webkit-border-top-left-radius: 0px;
+/* border-top-left-radius: inherit; */
+}
+.ui-listview li.ui-last-child {
+	-webkit-border-bottom-right-radius: 0px; 
+/* border-top-right-radius: inherit; */
+-webkit-border-bottom-left-radius: 0px;
+/* border-top-left-radius: inherit; */
+}
+
+#user-list{
+	margin:0px;
+}
+#user-list a{
+	height:36px;
+	line-height:36px;
+	font-size:2em;
+}
+#user-list .ui-btn{
+	text-align: center;
+}
+
+
+/**Footer Styles**/
+
+.ui-footer .ui-bar-inherit {
+	
+	background:red;
+}
+.ui-page-theme-a .ui-bar-inherit{
+	background:#f2e2af;
+	border:none;
+}
+#loading-bar-wrapper{
+	background:#603913;
+	height:63px;
+	float:left;
+	width:100%;
+}
+#loading-bar {
+	margin:8px 5px 5px 5px;
+	width: 50%;
+	height:48px;
+	float: left;
+	text-align:center;
+	font-size:1.3em;
+	line-height: 60px;
+	background: #ba984c;
+}
+
+#loading-bar .ui-btn{
+	background:#ba984c !important;
+	border:none;
+	text-shadow:none;
+	float:left;
+	margin-top:20px;
+}
+
+#soup-counter{
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	float:right;
+	height:75px;
+	width:162px;
+	background:#00bff3;
+	-webkit-border-top-left-radius: 20px;
+/* border-top-left-radius: inherit; */
+	
+	 border-top: 5px solid #603913;
+    border-left: 5px solid #603913;
+}
+
+#soup-counter img{
+	margin:10px;
+	float:left;
+	
+}
+
+#soup-counter-badge{
+	margin:14px;
+	background:#603913;
+	height:40px;
+	width:40px;
+	padding:;
+	float:right;
+	text-align:center;
+	line-height: 40px;
+		-webkit-border-bottom-right-radius: 20px; 
+/* border-top-right-radius: inherit; */
+-webkit-border-bottom-left-radius: 20px;
+/* border-top-left-radius: inherit; */
+	-webkit-border-top-right-radius: 20px; 
+/* border-top-right-radius: inherit; */
+-webkit-border-top-left-radius: 20px;
+/* border-top-left-radius: inherit; */
+}
+
+[data-role=page]{height: 100% !important; position:relative !important;}
+[data-role=footer]{bottom:0; position:absolute !important; top: auto !important; width:100%;}  
